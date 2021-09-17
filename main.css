@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:400,500,600&subset=latin-ext');
+
+* {
+    box-sizing: border-box;
+}
+
+/**:focus {*/
+/*  box-shadow: none;*/
+/*}*/
+
+/*body, html {*/
+/*  color: #444444;*/
+/*  font-size: 14px;*/
+/*  line-height: 1.7;*/
+/*  margin: 0;*/
+/*  height: 100%;*/
+/*  font-family: $font-text;*/
+/*}*/
+
+a, a:hover {
+    text-decoration: none;
+    color: #d63031;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.splash {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    background-image: url('https://i.postimg.cc/bvCR8v57/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.page-intro {
+    margin: auto;
+    text-align: center;
+}
+
+.main-title {
+    margin: 0;
+    color: #f7f1e3;
+    font-size: 48px;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    padding: 0 24px;
+    font-family: $ font-header;
+}
+
+.main-subtitle {
+    margin: 24px 0 60px 0;
+    font-weight: normal;
+    color: #f7f1e3;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.btn {
+    padding: 18px 24px 18px 24px;
+    font-size: 16px;
+    background-color: #d63031;
+    color: #f7f1e3;
+    box-shadow: 0 4px darken(#d63031, 20%);
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: darken(#d63031, 3%);
+    color: #f7f1e3;
+}
+
+.section-title {
+    position: relative;
+    margin: 0 0 60px 0;
+    text-align: center;
+    font-family: $ font-header;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-title:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #d63031;
+    left: 50%;
+    bottom: -16px;
+    margin-left: -5px;
+    border-radius: 50%;
+}
+
+.about {
+    background-color: #f0f3f3;
+}
+
+.section-intro {
+    margin: 36px 0 0 0;
+    color: lighten(#444444, 10%);
+}
+
+.features-wrapper {
+    display: flex;
+
+}
+
+.feature {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    text-align: center;
+    margin: 24px 0 0 0;
+}
+
+.feature i {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #ffffff;
+    font-size: 32px;
+    background-color: #d63031;
+    border-radius: 50%;
+    box-shadow: 4px 4px (#d63031, 20%);
+}
+
+.feature-title {
+    margin: 24px 0 0 0;
+    font-family: $ font-header;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.feature-description {
+    margin: 24px 0 0 0;
+    padding: 0 24px;
+}
+
+
+.statement {
+    background-image: url('https://image.freepik.com/darmowe-zdjecie/ladne-tulipany-na-bialym-tle_23-2147756854.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.statement p {
+    margin: 0;
+    text-align: center;
+}
